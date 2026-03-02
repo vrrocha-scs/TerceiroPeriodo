@@ -2,6 +2,6 @@
 *.out
 *.exec
 *.json
-/.vscode/
+/vscode/
 /bin/
 /obj/
