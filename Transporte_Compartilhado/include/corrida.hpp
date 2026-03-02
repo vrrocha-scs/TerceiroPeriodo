@@ -19,7 +19,7 @@ public:
     void removePassageiro();
     double eficienciaCorrida();
     void distanciaCorrida();
-    void construirTrecho();
+    void construirTrechoParada();
     void imprimeParada();
     Evento getPrimeiroEvento(int);
     bool processarProximoEvento(Evento,double,Evento&);

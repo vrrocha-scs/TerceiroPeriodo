@@ -70,7 +70,7 @@ int main(){
 
         numCorridasCriadas++;
 
-        auxCorrida.construirTrecho();
+        auxCorrida.construirTrechoParada();
     }
 
     cout << fixed << setprecision(2);

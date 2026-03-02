@@ -69,7 +69,7 @@ void Corrida::distanciaCorrida(){
     }
 }
 
-void Corrida::construirTrecho(){
+void Corrida::construirTrechoParada(){
     parada[0]=Parada(passageiros[0].origemX,passageiros[0].origemY,TIPO_EMBARQUE,passageiros[0].id);//coleta de c0
     for(int i=0;i<ocupantes-1;i++){//trechos + paradas de coleta
         trecho[i]=Trecho(passageiros[i].origemX,passageiros[i].origemY,passageiros[i+1].origemX,passageiros[i+1].origemY,TIPO_EMBARQUE);

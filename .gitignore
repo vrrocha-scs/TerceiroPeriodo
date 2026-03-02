@@ -1,6 +1,7 @@
 *.o
 *.out
 *.exec
+*.json
 /.vscode/
 /bin/
 /obj/
